@@ -3,8 +3,9 @@
     <header
       class="w-full h-auto fixed z-30 top-20 text-gray-700 border-b border-gray-200 bg-white shadow-sm body-font"
     >
-      <div class="flex px-2 items-center justify-between mt-4 md:mx-auto">
+      <div class="flex flex-row px-2 items-center justify-evenly mt-4 md:mx-auto">
         <NavbarIcon />
+        <NavbarItems />
       </div>
     </header>
   </div>
@@ -12,6 +13,7 @@
 
 <script setup>
 import NavbarIcon from '../navbar/navbarIcon.vue';
+import NavbarItems from '../navbar/navbarItems.vue';
 
 
 </script>
