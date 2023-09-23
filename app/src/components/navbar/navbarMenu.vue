@@ -2,7 +2,7 @@
   <Menu as="div" class="relative inline-block text-left">
     <div>
       <MenuButton
-        class="inline-flex w-full lg:justify-center bg-white text-lg lg:mr-5 p-4 sm:max-lg:border-b border-orange-700 font-medium hover:text-blue-700"
+        class="inline-flex w-full lg:justify-center bg-white text-lg lg:mr-5 p-4 max-lg:border-b border-orange-700 font-medium hover:text-blue-700"
       >
         <h1 class="">Projects & Initiatives</h1>
         <ChevronDownIcon
