@@ -5,6 +5,7 @@
     <div class="mt-40">
       <RouterView />
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -12,6 +13,7 @@
 import ContactHeader from "./components/header/contactHeader.vue";
 import Header from "./components/header/header.vue";
 import { RouterView } from "vue-router";
+import Footer from "./components/footer.vue";
 </script>
 
 <style scoped></style>

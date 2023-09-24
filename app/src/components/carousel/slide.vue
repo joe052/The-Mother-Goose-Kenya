@@ -3,7 +3,7 @@
     <SplideSlide>
       <div class="relative">
         <img
-          src="./../../assets/images/image1.jpg"
+          src="./../../assets/images/image5.jpg"
           alt=""
           class="object-cover w-full h-[45rem]"
         />

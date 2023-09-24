@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'footer': "url('/src/assets/images/image3.jpg')",
+      },
+    },
   },
   plugins: [],
 };
