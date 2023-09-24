@@ -8,7 +8,7 @@
           class="object-cover w-full h-[45rem]"
         />
         <div
-          class="absolute inset-0 flex flex-col items-start pl-[500px] pt-[200px] justify-center text-white bg-gradient-to-t from-gray-700"
+          class="absolute inset-0 flex flex-col items-center lg:items-start lg:pl-[500px] lg:pt-[200px] justify-center text-white bg-gradient-to-t from-gray-700"
         >
           <div class="gradient-overlay">
             <p class="text-2xl mb-4">Slide 1 Text</p>
@@ -29,7 +29,7 @@
           class="object-cover w-full h-[45rem]"
         />
         <div
-          class="absolute inset-0 flex flex-col items-start pl-[500px] pt-[200px] justify-center text-white bg-gradient-to-t from-gray-700"
+          class="absolute inset-0 flex flex-col items-center lg:items-start lg:pl-[500px] lg:pt-[200px] justify-center text-white bg-gradient-to-t from-gray-700"
         >
           <div class="gradient-overlay">
             <p class="text-2xl mb-4">Slide 1 Text</p>
@@ -50,7 +50,7 @@
           class="object-cover w-full h-[45rem]"
         />
         <div
-          class="absolute inset-0 flex flex-col items-start pl-[500px] pt-[200px] justify-center text-white bg-gradient-to-t from-gray-700"
+          class="absolute inset-0 flex flex-col items-center lg:items-start lg:pl-[500px] lg:pt-[200px] justify-center text-white bg-gradient-to-t from-gray-700"
         >
           <div class="gradient-overlay">
             <p class="text-2xl mb-4">Slide 1 Text</p>
