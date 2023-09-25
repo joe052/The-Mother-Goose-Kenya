@@ -27,7 +27,7 @@
       <img
         src="./../../assets/images/image1.jpg"
         alt=""
-        class="h-auto lg:w-[5000px]"
+        class="h-auto lg:w-[4000px]"
       />
       <div
         class="absolute inset-0 justify-center bg-gradient-to-l from-cyan-700"
