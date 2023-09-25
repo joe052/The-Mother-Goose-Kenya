@@ -1,7 +1,9 @@
 <template>
-  <div class="text-blue-400">This is about</div>
+  <Header />
 </template>
 
-<script setup></script>
+<script setup>
+import Header from '../components/about_us/header.vue';
+</script>
 
 <style lang="scss" scoped></style>
