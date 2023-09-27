@@ -8,7 +8,7 @@
         alt="blogs"
         class="w-[500px] h-96 object-cover"
       />
-      <router-link :to="{ name: 'about' }">
+      <router-link :to="{ name: 'blog' }">
         <hi class="font-semibold p-3 text-2xl hover:underline"
           >Blogs & Updates
         </hi>
@@ -23,7 +23,7 @@
         alt="blogs"
         class="w-[500px] h-96 object-cover"
       />
-      <router-link :to="{ name: 'about' }">
+      <router-link :to="{ name: 'blog' }">
         <hi class="font-semibold p-3 text-2xl hover:underline"
           >In The Press
         </hi>
