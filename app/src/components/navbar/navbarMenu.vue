@@ -21,17 +21,17 @@
       leave-to-class="transform opacity-0 scale-95"
     >
       <MenuItems
-        class="absolute lg:right-0 left-0  z-10 mt-2 w-72 origin-top-right divide-y divide-gray-100 bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+        class="absolute lg:right-0 left-0 z-10 mt-2 w-72 origin-top-right divide-y divide-gray-100 bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
       >
         <div class="py-1">
           <MenuItem v-slot="{ active }">
-            <a
-              href="#"
+            <router-link
+              :to="{ name: 'mummytoto' }"
               :class="[
                 active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                 'block px-4 py-2 text-sm',
               ]"
-              >Edit</a
+              >The Mummy-Toto lactation</router-link
             >
           </MenuItem>
           <MenuItem v-slot="{ active }">
@@ -109,4 +109,5 @@
 <script setup>
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/vue";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
+import { RouterLink } from "vue-router";
 </script>
