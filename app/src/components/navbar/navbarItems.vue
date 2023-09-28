@@ -102,7 +102,7 @@ import NavbarMenu from "./navbarMenu.vue";
     <NavbarMenu />
     <NavCourses />
     <NavBlogs />
-    <NavContact />
+    <!-- <NavContact /> -->
   </nav>
   <div
     class="flex items-center right-0 h-full pl-4 ml-6 border-l-0 lg:border-l border-orange-700"
