@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 px-32">
+  <section class="bg-gray-100 lg:px-32">
     <div class="text-center lg:mx-80">
       <hr class="w-auto my-6 text-cyan-800 mx-10" />
       <p class="text-3xl text-gray-500 mx-10 mt-28">News and Updates</p>
@@ -10,7 +10,7 @@
       </p>
     </div>
     <div class="px-6 py-10 xl:mx-36">
-      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-3 xl:grid-cols-3">
         <div v-for="card in cards" :key="card">
           <div class="bg-white shadow-lg text-center rounded-lg">
             <div class="relative">
