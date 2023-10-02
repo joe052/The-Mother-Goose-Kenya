@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative flex items-center justify-center m-5 max-lg:flex-col lg:m-40"
+    class="relative flex items-center justify-center m-5 max-lg:flex-col lg:mx-40 lg:mb-40"
   >
     <div class="z-10 lg:translate-x-32">
       <card
